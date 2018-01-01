@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/younes/Projects/flappy-bird/src/AssetManager.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="/Users/younes/Projects/flappy-bird/src/InputManager.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
 		<Unit filename="/Users/younes/Projects/flappy-bird/src/StateMachine.cpp">
 			<Option target="flappy_bird"/>
 		</Unit>

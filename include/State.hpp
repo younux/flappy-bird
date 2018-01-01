@@ -8,14 +8,14 @@ namespace Younux{
 
     class State{
     public:
-        virtual void Init();
+        virtual void Init() = 0;
 
-        virtual void HandleInput();
-        virtual void Update();
-        virtual void Draw(float dt);
+        virtual void HandleInput() = 0;
+        virtual void Update() = 0;
+        virtual void Draw(float dt) = 0;
 
-        virtual void Pause();
-        virtual void Resume();
+        virtual void Pause() { }
+        virtual void Resume() { }
 
     };
 }

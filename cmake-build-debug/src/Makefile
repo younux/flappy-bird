@@ -125,6 +125,60 @@ flappy_bird/fast:
 	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/build
 .PHONY : flappy_bird/fast
 
+AssetManager.o: AssetManager.cpp.o
+
+.PHONY : AssetManager.o
+
+# target to build an object file
+AssetManager.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o
+.PHONY : AssetManager.cpp.o
+
+AssetManager.i: AssetManager.cpp.i
+
+.PHONY : AssetManager.i
+
+# target to preprocess a source file
+AssetManager.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.i
+.PHONY : AssetManager.cpp.i
+
+AssetManager.s: AssetManager.cpp.s
+
+.PHONY : AssetManager.s
+
+# target to generate assembly for a file
+AssetManager.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.s
+.PHONY : AssetManager.cpp.s
+
+InputManager.o: InputManager.cpp.o
+
+.PHONY : InputManager.o
+
+# target to build an object file
+InputManager.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o
+.PHONY : InputManager.cpp.o
+
+InputManager.i: InputManager.cpp.i
+
+.PHONY : InputManager.i
+
+# target to preprocess a source file
+InputManager.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/InputManager.cpp.i
+.PHONY : InputManager.cpp.i
+
+InputManager.s: InputManager.cpp.s
+
+.PHONY : InputManager.s
+
+# target to generate assembly for a file
+InputManager.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/InputManager.cpp.s
+.PHONY : InputManager.cpp.s
+
 StateMachine.o: StateMachine.cpp.o
 
 .PHONY : StateMachine.o
@@ -188,6 +242,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... flappy_bird"
+	@echo "... AssetManager.o"
+	@echo "... AssetManager.i"
+	@echo "... AssetManager.s"
+	@echo "... InputManager.o"
+	@echo "... InputManager.i"
+	@echo "... InputManager.s"
 	@echo "... StateMachine.o"
 	@echo "... StateMachine.i"
 	@echo "... StateMachine.s"

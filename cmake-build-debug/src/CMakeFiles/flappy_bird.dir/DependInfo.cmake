@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/younes/Projects/flappy-bird/src/AssetManager.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o"
+  "/Users/younes/Projects/flappy-bird/src/InputManager.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o"
   "/Users/younes/Projects/flappy-bird/src/StateMachine.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/StateMachine.cpp.o"
   "/Users/younes/Projects/flappy-bird/src/main.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/main.cpp.o"
   )

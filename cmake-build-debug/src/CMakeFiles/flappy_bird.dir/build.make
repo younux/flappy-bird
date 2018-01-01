@@ -105,16 +105,68 @@ src/CMakeFiles/flappy_bird.dir/StateMachine.cpp.o.provides: src/CMakeFiles/flapp
 src/CMakeFiles/flappy_bird.dir/StateMachine.cpp.o.provides.build: src/CMakeFiles/flappy_bird.dir/StateMachine.cpp.o
 
 
+src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o: src/CMakeFiles/flappy_bird.dir/flags.make
+src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o: ../src/AssetManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/flappy-bird/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o"
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flappy_bird.dir/AssetManager.cpp.o -c /Users/younes/Projects/flappy-bird/src/AssetManager.cpp
+
+src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flappy_bird.dir/AssetManager.cpp.i"
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/flappy-bird/src/AssetManager.cpp > CMakeFiles/flappy_bird.dir/AssetManager.cpp.i
+
+src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flappy_bird.dir/AssetManager.cpp.s"
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/flappy-bird/src/AssetManager.cpp -o CMakeFiles/flappy_bird.dir/AssetManager.cpp.s
+
+src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o.requires
+
+src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o.provides: src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o.provides.build
+.PHONY : src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o.provides
+
+src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o.provides.build: src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o
+
+
+src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o: src/CMakeFiles/flappy_bird.dir/flags.make
+src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o: ../src/InputManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/flappy-bird/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o"
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flappy_bird.dir/InputManager.cpp.o -c /Users/younes/Projects/flappy-bird/src/InputManager.cpp
+
+src/CMakeFiles/flappy_bird.dir/InputManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flappy_bird.dir/InputManager.cpp.i"
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/flappy-bird/src/InputManager.cpp > CMakeFiles/flappy_bird.dir/InputManager.cpp.i
+
+src/CMakeFiles/flappy_bird.dir/InputManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flappy_bird.dir/InputManager.cpp.s"
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/flappy-bird/src/InputManager.cpp -o CMakeFiles/flappy_bird.dir/InputManager.cpp.s
+
+src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o.requires
+
+src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o.provides: src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o.provides.build
+.PHONY : src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o.provides
+
+src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o.provides.build: src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o
+
+
 # Object files for target flappy_bird
 flappy_bird_OBJECTS = \
 "CMakeFiles/flappy_bird.dir/main.cpp.o" \
-"CMakeFiles/flappy_bird.dir/StateMachine.cpp.o"
+"CMakeFiles/flappy_bird.dir/StateMachine.cpp.o" \
+"CMakeFiles/flappy_bird.dir/AssetManager.cpp.o" \
+"CMakeFiles/flappy_bird.dir/InputManager.cpp.o"
 
 # External object files for target flappy_bird
 flappy_bird_EXTERNAL_OBJECTS =
 
 src/flappy_bird: src/CMakeFiles/flappy_bird.dir/main.cpp.o
 src/flappy_bird: src/CMakeFiles/flappy_bird.dir/StateMachine.cpp.o
+src/flappy_bird: src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o
+src/flappy_bird: src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o
 src/flappy_bird: src/CMakeFiles/flappy_bird.dir/build.make
 src/flappy_bird: ../extlibs/SFML/lib/libsfml-system.dylib
 src/flappy_bird: ../extlibs/SFML/lib/libsfml-window.dylib
@@ -122,7 +174,7 @@ src/flappy_bird: ../extlibs/SFML/lib/libsfml-graphics.dylib
 src/flappy_bird: ../extlibs/SFML/lib/libsfml-network.dylib
 src/flappy_bird: ../extlibs/SFML/lib/libsfml-audio.dylib
 src/flappy_bird: src/CMakeFiles/flappy_bird.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/younes/Projects/flappy-bird/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable flappy_bird"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/younes/Projects/flappy-bird/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable flappy_bird"
 	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/flappy_bird.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -132,6 +184,8 @@ src/CMakeFiles/flappy_bird.dir/build: src/flappy_bird
 
 src/CMakeFiles/flappy_bird.dir/requires: src/CMakeFiles/flappy_bird.dir/main.cpp.o.requires
 src/CMakeFiles/flappy_bird.dir/requires: src/CMakeFiles/flappy_bird.dir/StateMachine.cpp.o.requires
+src/CMakeFiles/flappy_bird.dir/requires: src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o.requires
+src/CMakeFiles/flappy_bird.dir/requires: src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o.requires
 
 .PHONY : src/CMakeFiles/flappy_bird.dir/requires
 

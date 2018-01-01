@@ -1,4 +1,4 @@
-set(SOURCE_FILES main.cpp StateMachine.cpp)
+set(SOURCE_FILES main.cpp StateMachine.cpp AssetManager.cpp InputManager.cpp)
 add_executable(flappy_bird ${SOURCE_FILES})
 
 
