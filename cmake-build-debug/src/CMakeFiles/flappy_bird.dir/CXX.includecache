@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/State.hpp
+
+.././include/StateMachine.hpp
+memory
+-
+stack
+-
+State.hpp
+.././include/State.hpp
+
+/Users/younes/Projects/flappy-bird/src/StateMachine.cpp
+StateMachine.hpp
+/Users/younes/Projects/flappy-bird/src/StateMachine.hpp
+
+/Users/younes/Projects/flappy-bird/src/main.cpp
+iostream
+-
+

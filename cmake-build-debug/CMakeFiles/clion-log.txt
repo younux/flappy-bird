@@ -1,0 +1,5 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/younes/Projects/flappy-bird
+-- Found SFML 2.4.2 in /Users/younes/Projects/flappy-bird/extlibs/SFML/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/younes/Projects/flappy-bird/cmake-build-debug
