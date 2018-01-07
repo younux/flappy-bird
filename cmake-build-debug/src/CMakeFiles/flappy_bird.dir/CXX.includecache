@@ -12,9 +12,41 @@ map
 SFML/Graphics.hpp
 -
 
+.././include/DEFINITIONS.hpp
+
+.././include/Game.hpp
+memory
+-
+string
+-
+SFML/Graphics.hpp
+-
+StateMachine.hpp
+.././include/StateMachine.hpp
+AssetManager.hpp
+.././include/AssetManager.hpp
+InputManager.hpp
+.././include/InputManager.hpp
+
 .././include/InputManager.hpp
 SFML/Graphics.hpp
 -
+
+.././include/MainMenuState.hpp
+SFML/Graphics.hpp
+-
+State.hpp
+.././include/State.hpp
+Game.hpp
+.././include/Game.hpp
+
+.././include/SplashState.hpp
+SFML/Graphics.hpp
+-
+State.hpp
+.././include/State.hpp
+Game.hpp
+.././include/Game.hpp
 
 .././include/State.hpp
 
@@ -664,9 +696,35 @@ SFML/Config.hpp
 AssetManager.hpp
 /Users/younes/Projects/flappy-bird/src/AssetManager.hpp
 
+/Users/younes/Projects/flappy-bird/src/Game.cpp
+Game.hpp
+/Users/younes/Projects/flappy-bird/src/Game.hpp
+SplashState.hpp
+/Users/younes/Projects/flappy-bird/src/SplashState.hpp
+
 /Users/younes/Projects/flappy-bird/src/InputManager.cpp
 InputManager.hpp
 /Users/younes/Projects/flappy-bird/src/InputManager.hpp
+
+/Users/younes/Projects/flappy-bird/src/MainMenuState.cpp
+MainMenuState.hpp
+/Users/younes/Projects/flappy-bird/src/MainMenuState.hpp
+DEFINITIONS.hpp
+/Users/younes/Projects/flappy-bird/src/DEFINITIONS.hpp
+iostream
+-
+
+/Users/younes/Projects/flappy-bird/src/SplashState.cpp
+sstream
+-
+SplashState.hpp
+/Users/younes/Projects/flappy-bird/src/SplashState.hpp
+DEFINITIONS.hpp
+/Users/younes/Projects/flappy-bird/src/DEFINITIONS.hpp
+MainMenuState.hpp
+/Users/younes/Projects/flappy-bird/src/MainMenuState.hpp
+iostream
+-
 
 /Users/younes/Projects/flappy-bird/src/StateMachine.cpp
 StateMachine.hpp
@@ -675,4 +733,8 @@ StateMachine.hpp
 /Users/younes/Projects/flappy-bird/src/main.cpp
 iostream
 -
+Game.hpp
+/Users/younes/Projects/flappy-bird/src/Game.hpp
+DEFINITIONS.hpp
+/Users/younes/Projects/flappy-bird/src/DEFINITIONS.hpp
 

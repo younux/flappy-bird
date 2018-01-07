@@ -87,7 +87,16 @@
 		<Unit filename="/Users/younes/Projects/flappy-bird/src/AssetManager.cpp">
 			<Option target="flappy_bird"/>
 		</Unit>
+		<Unit filename="/Users/younes/Projects/flappy-bird/src/Game.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
 		<Unit filename="/Users/younes/Projects/flappy-bird/src/InputManager.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="/Users/younes/Projects/flappy-bird/src/MainMenuState.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="/Users/younes/Projects/flappy-bird/src/SplashState.cpp">
 			<Option target="flappy_bird"/>
 		</Unit>
 		<Unit filename="/Users/younes/Projects/flappy-bird/src/StateMachine.cpp">

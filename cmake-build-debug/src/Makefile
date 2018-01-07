@@ -152,6 +152,33 @@ AssetManager.cpp.s:
 	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.s
 .PHONY : AssetManager.cpp.s
 
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
 InputManager.o: InputManager.cpp.o
 
 .PHONY : InputManager.o
@@ -178,6 +205,60 @@ InputManager.s: InputManager.cpp.s
 InputManager.cpp.s:
 	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/InputManager.cpp.s
 .PHONY : InputManager.cpp.s
+
+MainMenuState.o: MainMenuState.cpp.o
+
+.PHONY : MainMenuState.o
+
+# target to build an object file
+MainMenuState.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/MainMenuState.cpp.o
+.PHONY : MainMenuState.cpp.o
+
+MainMenuState.i: MainMenuState.cpp.i
+
+.PHONY : MainMenuState.i
+
+# target to preprocess a source file
+MainMenuState.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/MainMenuState.cpp.i
+.PHONY : MainMenuState.cpp.i
+
+MainMenuState.s: MainMenuState.cpp.s
+
+.PHONY : MainMenuState.s
+
+# target to generate assembly for a file
+MainMenuState.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/MainMenuState.cpp.s
+.PHONY : MainMenuState.cpp.s
+
+SplashState.o: SplashState.cpp.o
+
+.PHONY : SplashState.o
+
+# target to build an object file
+SplashState.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/SplashState.cpp.o
+.PHONY : SplashState.cpp.o
+
+SplashState.i: SplashState.cpp.i
+
+.PHONY : SplashState.i
+
+# target to preprocess a source file
+SplashState.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/SplashState.cpp.i
+.PHONY : SplashState.cpp.i
+
+SplashState.s: SplashState.cpp.s
+
+.PHONY : SplashState.s
+
+# target to generate assembly for a file
+SplashState.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/SplashState.cpp.s
+.PHONY : SplashState.cpp.s
 
 StateMachine.o: StateMachine.cpp.o
 
@@ -245,9 +326,18 @@ help:
 	@echo "... AssetManager.o"
 	@echo "... AssetManager.i"
 	@echo "... AssetManager.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
 	@echo "... InputManager.o"
 	@echo "... InputManager.i"
 	@echo "... InputManager.s"
+	@echo "... MainMenuState.o"
+	@echo "... MainMenuState.i"
+	@echo "... MainMenuState.s"
+	@echo "... SplashState.o"
+	@echo "... SplashState.i"
+	@echo "... SplashState.s"
 	@echo "... StateMachine.o"
 	@echo "... StateMachine.i"
 	@echo "... StateMachine.s"
