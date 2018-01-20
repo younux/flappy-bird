@@ -2,9 +2,11 @@
 // Created by Younes on 07/01/2018.
 //
 
+#include <iostream>
+
 #include "MainMenuState.hpp"
 #include "DEFINITIONS.hpp"
-#include <iostream>
+#include "GameState.hpp"
 
 
 namespace Younux {
@@ -40,7 +42,7 @@ namespace Younux {
 
             if(_data->input.IsSpriteClicked(_playButton, sf::Mouse::Button::Left,
             _data->window)){
-                std::cout << "Go To Game Screen" << std::endl;
+                this->_data->machine.AddState(StateRef(new GameState(this->_data)), true);
             }
         }
     }

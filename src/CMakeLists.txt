@@ -1,4 +1,5 @@
-set(SOURCE_FILES main.cpp StateMachine.cpp AssetManager.cpp InputManager.cpp Game.cpp SplashState.cpp MainMenuState.cpp)
+set(SOURCE_FILES main.cpp StateMachine.cpp AssetManager.cpp InputManager.cpp
+        Game.cpp SplashState.cpp MainMenuState.cpp GameState.cpp GameOverState.cpp Pipe.cpp Land.cpp Bird.cpp)
 add_executable(flappy_bird ${SOURCE_FILES})
 
 

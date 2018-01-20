@@ -5,9 +5,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/younes/Projects/flappy-bird/src/AssetManager.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o"
+  "/Users/younes/Projects/flappy-bird/src/Bird.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/Bird.cpp.o"
   "/Users/younes/Projects/flappy-bird/src/Game.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/Game.cpp.o"
+  "/Users/younes/Projects/flappy-bird/src/GameOverState.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/GameOverState.cpp.o"
+  "/Users/younes/Projects/flappy-bird/src/GameState.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/GameState.cpp.o"
   "/Users/younes/Projects/flappy-bird/src/InputManager.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/InputManager.cpp.o"
+  "/Users/younes/Projects/flappy-bird/src/Land.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/Land.cpp.o"
   "/Users/younes/Projects/flappy-bird/src/MainMenuState.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/MainMenuState.cpp.o"
+  "/Users/younes/Projects/flappy-bird/src/Pipe.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/Pipe.cpp.o"
   "/Users/younes/Projects/flappy-bird/src/SplashState.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/SplashState.cpp.o"
   "/Users/younes/Projects/flappy-bird/src/StateMachine.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/StateMachine.cpp.o"
   "/Users/younes/Projects/flappy-bird/src/main.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/main.cpp.o"

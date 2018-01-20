@@ -6,6 +6,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/flappy_bird.dir/Game.cpp.o"
   "CMakeFiles/flappy_bird.dir/SplashState.cpp.o"
   "CMakeFiles/flappy_bird.dir/MainMenuState.cpp.o"
+  "CMakeFiles/flappy_bird.dir/GameState.cpp.o"
+  "CMakeFiles/flappy_bird.dir/GameOverState.cpp.o"
+  "CMakeFiles/flappy_bird.dir/Pipe.cpp.o"
+  "CMakeFiles/flappy_bird.dir/Land.cpp.o"
+  "CMakeFiles/flappy_bird.dir/Bird.cpp.o"
   "flappy_bird.pdb"
   "flappy_bird"
 )

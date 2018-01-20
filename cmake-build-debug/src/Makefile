@@ -152,6 +152,33 @@ AssetManager.cpp.s:
 	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.s
 .PHONY : AssetManager.cpp.s
 
+Bird.o: Bird.cpp.o
+
+.PHONY : Bird.o
+
+# target to build an object file
+Bird.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Bird.cpp.o
+.PHONY : Bird.cpp.o
+
+Bird.i: Bird.cpp.i
+
+.PHONY : Bird.i
+
+# target to preprocess a source file
+Bird.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Bird.cpp.i
+.PHONY : Bird.cpp.i
+
+Bird.s: Bird.cpp.s
+
+.PHONY : Bird.s
+
+# target to generate assembly for a file
+Bird.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Bird.cpp.s
+.PHONY : Bird.cpp.s
+
 Game.o: Game.cpp.o
 
 .PHONY : Game.o
@@ -178,6 +205,60 @@ Game.s: Game.cpp.s
 Game.cpp.s:
 	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Game.cpp.s
 .PHONY : Game.cpp.s
+
+GameOverState.o: GameOverState.cpp.o
+
+.PHONY : GameOverState.o
+
+# target to build an object file
+GameOverState.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/GameOverState.cpp.o
+.PHONY : GameOverState.cpp.o
+
+GameOverState.i: GameOverState.cpp.i
+
+.PHONY : GameOverState.i
+
+# target to preprocess a source file
+GameOverState.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/GameOverState.cpp.i
+.PHONY : GameOverState.cpp.i
+
+GameOverState.s: GameOverState.cpp.s
+
+.PHONY : GameOverState.s
+
+# target to generate assembly for a file
+GameOverState.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/GameOverState.cpp.s
+.PHONY : GameOverState.cpp.s
+
+GameState.o: GameState.cpp.o
+
+.PHONY : GameState.o
+
+# target to build an object file
+GameState.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/GameState.cpp.o
+.PHONY : GameState.cpp.o
+
+GameState.i: GameState.cpp.i
+
+.PHONY : GameState.i
+
+# target to preprocess a source file
+GameState.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/GameState.cpp.i
+.PHONY : GameState.cpp.i
+
+GameState.s: GameState.cpp.s
+
+.PHONY : GameState.s
+
+# target to generate assembly for a file
+GameState.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/GameState.cpp.s
+.PHONY : GameState.cpp.s
 
 InputManager.o: InputManager.cpp.o
 
@@ -206,6 +287,33 @@ InputManager.cpp.s:
 	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/InputManager.cpp.s
 .PHONY : InputManager.cpp.s
 
+Land.o: Land.cpp.o
+
+.PHONY : Land.o
+
+# target to build an object file
+Land.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Land.cpp.o
+.PHONY : Land.cpp.o
+
+Land.i: Land.cpp.i
+
+.PHONY : Land.i
+
+# target to preprocess a source file
+Land.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Land.cpp.i
+.PHONY : Land.cpp.i
+
+Land.s: Land.cpp.s
+
+.PHONY : Land.s
+
+# target to generate assembly for a file
+Land.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Land.cpp.s
+.PHONY : Land.cpp.s
+
 MainMenuState.o: MainMenuState.cpp.o
 
 .PHONY : MainMenuState.o
@@ -232,6 +340,33 @@ MainMenuState.s: MainMenuState.cpp.s
 MainMenuState.cpp.s:
 	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/MainMenuState.cpp.s
 .PHONY : MainMenuState.cpp.s
+
+Pipe.o: Pipe.cpp.o
+
+.PHONY : Pipe.o
+
+# target to build an object file
+Pipe.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Pipe.cpp.o
+.PHONY : Pipe.cpp.o
+
+Pipe.i: Pipe.cpp.i
+
+.PHONY : Pipe.i
+
+# target to preprocess a source file
+Pipe.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Pipe.cpp.i
+.PHONY : Pipe.cpp.i
+
+Pipe.s: Pipe.cpp.s
+
+.PHONY : Pipe.s
+
+# target to generate assembly for a file
+Pipe.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Pipe.cpp.s
+.PHONY : Pipe.cpp.s
 
 SplashState.o: SplashState.cpp.o
 
@@ -326,15 +461,30 @@ help:
 	@echo "... AssetManager.o"
 	@echo "... AssetManager.i"
 	@echo "... AssetManager.s"
+	@echo "... Bird.o"
+	@echo "... Bird.i"
+	@echo "... Bird.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... GameOverState.o"
+	@echo "... GameOverState.i"
+	@echo "... GameOverState.s"
+	@echo "... GameState.o"
+	@echo "... GameState.i"
+	@echo "... GameState.s"
 	@echo "... InputManager.o"
 	@echo "... InputManager.i"
 	@echo "... InputManager.s"
+	@echo "... Land.o"
+	@echo "... Land.i"
+	@echo "... Land.s"
 	@echo "... MainMenuState.o"
 	@echo "... MainMenuState.i"
 	@echo "... MainMenuState.s"
+	@echo "... Pipe.o"
+	@echo "... Pipe.i"
+	@echo "... Pipe.s"
 	@echo "... SplashState.o"
 	@echo "... SplashState.i"
 	@echo "... SplashState.s"
