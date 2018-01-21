@@ -52,7 +52,7 @@
 
 #define PIPE_MOVEMENT_SPEED 200.0f
 
-#define PIPE_SPAWN_FREQUENCY 0.5f
+#define PIPE_SPAWN_FREQUENCY 2.0f
 
 #define BIRD_ANIMATION_DURATION 0.4f
 
@@ -72,3 +72,42 @@ enum GameStates {
     ePlaying,
     eGameOver
 };
+
+#define FLASH_SPEED 1500.0f
+
+#define SCORING_PIPE_FILEPATH "./resources/res/InvisibleScoringPipe.png"
+#define SCORING_PIPE_NAME "Scoring Pipe"
+
+#define FLAPPY_FONT_FILEPATH "./resources/fonts/FlappyFont.ttf"
+#define FLAPPY_FONT_NAME "Flappy Font"
+
+#define GAME_OVER_TITLE_FILEPATH "./resources/res/Game-Over-Title.png"
+#define GAME_OVER_TITLE_NAME "Game Over Title"
+
+#define GAME_OVER_BODY_FILEPATH "./resources/res/Game-Over-Body.png"
+#define GAME_OVER_BODY_NAME "Game Over Body"
+
+#define TIME_BEFORE_GAME_OVER_APPEARS 3.0f
+
+#define HIGH_SCORE_FILEPATH "./resources/highScore.txt"
+
+#define BRONZE_MEDAL_FILEPATH "./resources/res/Bronze-Medal.png"
+#define BRONZE_MEDAL_NAME "Bronze Medal"
+
+#define SILVER_MEDAL_FILEPATH "./resources/res/Silver-Medal.png"
+#define SILVER_MEDAL_NAME "Silver Medal"
+
+#define GOLD_MEDAL_FILEPATH "./resources/res/Gold-Medal.png"
+#define GOLD_MEDAL_NAME "Gold Medal"
+
+#define PLATINUM_MEDAL_FILEPATH "./resources/res/Platinum-Medal.png"
+#define PLATINUM_MEDAL_NAME "Platinum Medal"
+
+#define  BRONNZE_MEDAL_SCORE 0
+#define  SILVER_MEDAL_SCORE 10
+#define  GOLD_MEDAL_SCORE 25
+#define  PLATINUM_MEDAL_SCORE 100
+
+#define HIT_SOUND_FILEPATH "./resources/audio/Hit.wav"
+#define POINT_SOUND_FILEPATH "./resources/audio/Point.wav"
+#define WING_SOUND_FILEPATH "./resources/audio/Wing.wav"

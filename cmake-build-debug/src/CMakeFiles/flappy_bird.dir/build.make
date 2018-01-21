@@ -369,6 +369,54 @@ src/CMakeFiles/flappy_bird.dir/Collision.cpp.o.provides: src/CMakeFiles/flappy_b
 src/CMakeFiles/flappy_bird.dir/Collision.cpp.o.provides.build: src/CMakeFiles/flappy_bird.dir/Collision.cpp.o
 
 
+src/CMakeFiles/flappy_bird.dir/Flash.cpp.o: src/CMakeFiles/flappy_bird.dir/flags.make
+src/CMakeFiles/flappy_bird.dir/Flash.cpp.o: ../src/Flash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/flappy-bird/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/flappy_bird.dir/Flash.cpp.o"
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flappy_bird.dir/Flash.cpp.o -c /Users/younes/Projects/flappy-bird/src/Flash.cpp
+
+src/CMakeFiles/flappy_bird.dir/Flash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flappy_bird.dir/Flash.cpp.i"
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/flappy-bird/src/Flash.cpp > CMakeFiles/flappy_bird.dir/Flash.cpp.i
+
+src/CMakeFiles/flappy_bird.dir/Flash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flappy_bird.dir/Flash.cpp.s"
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/flappy-bird/src/Flash.cpp -o CMakeFiles/flappy_bird.dir/Flash.cpp.s
+
+src/CMakeFiles/flappy_bird.dir/Flash.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/flappy_bird.dir/Flash.cpp.o.requires
+
+src/CMakeFiles/flappy_bird.dir/Flash.cpp.o.provides: src/CMakeFiles/flappy_bird.dir/Flash.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Flash.cpp.o.provides.build
+.PHONY : src/CMakeFiles/flappy_bird.dir/Flash.cpp.o.provides
+
+src/CMakeFiles/flappy_bird.dir/Flash.cpp.o.provides.build: src/CMakeFiles/flappy_bird.dir/Flash.cpp.o
+
+
+src/CMakeFiles/flappy_bird.dir/HUD.cpp.o: src/CMakeFiles/flappy_bird.dir/flags.make
+src/CMakeFiles/flappy_bird.dir/HUD.cpp.o: ../src/HUD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/younes/Projects/flappy-bird/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/flappy_bird.dir/HUD.cpp.o"
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flappy_bird.dir/HUD.cpp.o -c /Users/younes/Projects/flappy-bird/src/HUD.cpp
+
+src/CMakeFiles/flappy_bird.dir/HUD.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flappy_bird.dir/HUD.cpp.i"
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/younes/Projects/flappy-bird/src/HUD.cpp > CMakeFiles/flappy_bird.dir/HUD.cpp.i
+
+src/CMakeFiles/flappy_bird.dir/HUD.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flappy_bird.dir/HUD.cpp.s"
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/younes/Projects/flappy-bird/src/HUD.cpp -o CMakeFiles/flappy_bird.dir/HUD.cpp.s
+
+src/CMakeFiles/flappy_bird.dir/HUD.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/flappy_bird.dir/HUD.cpp.o.requires
+
+src/CMakeFiles/flappy_bird.dir/HUD.cpp.o.provides: src/CMakeFiles/flappy_bird.dir/HUD.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/HUD.cpp.o.provides.build
+.PHONY : src/CMakeFiles/flappy_bird.dir/HUD.cpp.o.provides
+
+src/CMakeFiles/flappy_bird.dir/HUD.cpp.o.provides.build: src/CMakeFiles/flappy_bird.dir/HUD.cpp.o
+
+
 # Object files for target flappy_bird
 flappy_bird_OBJECTS = \
 "CMakeFiles/flappy_bird.dir/main.cpp.o" \
@@ -383,7 +431,9 @@ flappy_bird_OBJECTS = \
 "CMakeFiles/flappy_bird.dir/Pipe.cpp.o" \
 "CMakeFiles/flappy_bird.dir/Land.cpp.o" \
 "CMakeFiles/flappy_bird.dir/Bird.cpp.o" \
-"CMakeFiles/flappy_bird.dir/Collision.cpp.o"
+"CMakeFiles/flappy_bird.dir/Collision.cpp.o" \
+"CMakeFiles/flappy_bird.dir/Flash.cpp.o" \
+"CMakeFiles/flappy_bird.dir/HUD.cpp.o"
 
 # External object files for target flappy_bird
 flappy_bird_EXTERNAL_OBJECTS =
@@ -401,6 +451,8 @@ src/flappy_bird: src/CMakeFiles/flappy_bird.dir/Pipe.cpp.o
 src/flappy_bird: src/CMakeFiles/flappy_bird.dir/Land.cpp.o
 src/flappy_bird: src/CMakeFiles/flappy_bird.dir/Bird.cpp.o
 src/flappy_bird: src/CMakeFiles/flappy_bird.dir/Collision.cpp.o
+src/flappy_bird: src/CMakeFiles/flappy_bird.dir/Flash.cpp.o
+src/flappy_bird: src/CMakeFiles/flappy_bird.dir/HUD.cpp.o
 src/flappy_bird: src/CMakeFiles/flappy_bird.dir/build.make
 src/flappy_bird: ../extlibs/SFML/lib/libsfml-system.dylib
 src/flappy_bird: ../extlibs/SFML/lib/libsfml-window.dylib
@@ -408,7 +460,7 @@ src/flappy_bird: ../extlibs/SFML/lib/libsfml-graphics.dylib
 src/flappy_bird: ../extlibs/SFML/lib/libsfml-network.dylib
 src/flappy_bird: ../extlibs/SFML/lib/libsfml-audio.dylib
 src/flappy_bird: src/CMakeFiles/flappy_bird.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/younes/Projects/flappy-bird/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable flappy_bird"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/younes/Projects/flappy-bird/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable flappy_bird"
 	cd /Users/younes/Projects/flappy-bird/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/flappy_bird.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -429,6 +481,8 @@ src/CMakeFiles/flappy_bird.dir/requires: src/CMakeFiles/flappy_bird.dir/Pipe.cpp
 src/CMakeFiles/flappy_bird.dir/requires: src/CMakeFiles/flappy_bird.dir/Land.cpp.o.requires
 src/CMakeFiles/flappy_bird.dir/requires: src/CMakeFiles/flappy_bird.dir/Bird.cpp.o.requires
 src/CMakeFiles/flappy_bird.dir/requires: src/CMakeFiles/flappy_bird.dir/Collision.cpp.o.requires
+src/CMakeFiles/flappy_bird.dir/requires: src/CMakeFiles/flappy_bird.dir/Flash.cpp.o.requires
+src/CMakeFiles/flappy_bird.dir/requires: src/CMakeFiles/flappy_bird.dir/HUD.cpp.o.requires
 
 .PHONY : src/CMakeFiles/flappy_bird.dir/requires
 

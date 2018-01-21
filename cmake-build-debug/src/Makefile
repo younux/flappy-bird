@@ -206,6 +206,33 @@ Collision.cpp.s:
 	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Collision.cpp.s
 .PHONY : Collision.cpp.s
 
+Flash.o: Flash.cpp.o
+
+.PHONY : Flash.o
+
+# target to build an object file
+Flash.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Flash.cpp.o
+.PHONY : Flash.cpp.o
+
+Flash.i: Flash.cpp.i
+
+.PHONY : Flash.i
+
+# target to preprocess a source file
+Flash.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Flash.cpp.i
+.PHONY : Flash.cpp.i
+
+Flash.s: Flash.cpp.s
+
+.PHONY : Flash.s
+
+# target to generate assembly for a file
+Flash.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Flash.cpp.s
+.PHONY : Flash.cpp.s
+
 Game.o: Game.cpp.o
 
 .PHONY : Game.o
@@ -286,6 +313,33 @@ GameState.s: GameState.cpp.s
 GameState.cpp.s:
 	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/GameState.cpp.s
 .PHONY : GameState.cpp.s
+
+HUD.o: HUD.cpp.o
+
+.PHONY : HUD.o
+
+# target to build an object file
+HUD.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/HUD.cpp.o
+.PHONY : HUD.cpp.o
+
+HUD.i: HUD.cpp.i
+
+.PHONY : HUD.i
+
+# target to preprocess a source file
+HUD.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/HUD.cpp.i
+.PHONY : HUD.cpp.i
+
+HUD.s: HUD.cpp.s
+
+.PHONY : HUD.s
+
+# target to generate assembly for a file
+HUD.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/HUD.cpp.s
+.PHONY : HUD.cpp.s
 
 InputManager.o: InputManager.cpp.o
 
@@ -494,6 +548,9 @@ help:
 	@echo "... Collision.o"
 	@echo "... Collision.i"
 	@echo "... Collision.s"
+	@echo "... Flash.o"
+	@echo "... Flash.i"
+	@echo "... Flash.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
@@ -503,6 +560,9 @@ help:
 	@echo "... GameState.o"
 	@echo "... GameState.i"
 	@echo "... GameState.s"
+	@echo "... HUD.o"
+	@echo "... HUD.i"
+	@echo "... HUD.s"
 	@echo "... InputManager.o"
 	@echo "... InputManager.i"
 	@echo "... InputManager.s"

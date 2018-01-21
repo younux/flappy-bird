@@ -36,6 +36,13 @@ namespace Younux {
 
     };
 
+    void Pipe::SpawnScoringPipe(){
+        sf::Sprite sprite(_data->assets.GetTexture(SCORING_PIPE_NAME));
+        sprite.setPosition(_data->window.getSize().x, 0);
+        scorinngPipes.push_back(sprite);
+
+    };
+
     void Pipe::MovePipes(float dt){
         for(unsigned short int i = 0; i < this->pipeSprites.size(); i++){
             if(pipeSprites.at(i).getPosition().x < 0 - pipeSprites.at(i).getGlobalBounds().width){
@@ -43,6 +50,15 @@ namespace Younux {
             } else {
                 float movement = PIPE_MOVEMENT_SPEED * dt;
                 pipeSprites.at(i).move(-movement, 0);
+            }
+        }
+
+        for(unsigned short int i = 0; i < this->scorinngPipes.size(); i++){
+            if(scorinngPipes.at(i).getPosition().x < 0 - scorinngPipes.at(i).getGlobalBounds().width){
+                scorinngPipes.erase(scorinngPipes.begin() + i);
+            } else {
+                float movement = PIPE_MOVEMENT_SPEED * dt;
+                scorinngPipes.at(i).move(-movement, 0);
             }
         }
     };
@@ -59,8 +75,12 @@ namespace Younux {
 
     }
 
-    const std::vector<sf::Sprite>& Pipe::GetSprites() const {
+    const std::vector<sf::Sprite> & Pipe::GetSprites() const {
         return pipeSprites;
+    }
+
+    std::vector<sf::Sprite> & Pipe::GetScoringSprites() {
+        return scorinngPipes;
     }
 
 
