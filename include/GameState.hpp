@@ -11,6 +11,7 @@
 #include "Pipe.hpp"
 #include "Land.hpp"
 #include "Bird.hpp"
+#include "Collision.hpp"
 
 namespace Younux{
 
@@ -33,7 +34,11 @@ namespace Younux{
         Land *land;
         Bird *bird;
 
+        Collision collision;
+
         sf::Clock clock;
+
+        int _gameState;
 
     };
 }

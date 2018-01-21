@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/flappy_bird.dir/Pipe.cpp.o"
   "CMakeFiles/flappy_bird.dir/Land.cpp.o"
   "CMakeFiles/flappy_bird.dir/Bird.cpp.o"
+  "CMakeFiles/flappy_bird.dir/Collision.cpp.o"
   "flappy_bird.pdb"
   "flappy_bird"
 )

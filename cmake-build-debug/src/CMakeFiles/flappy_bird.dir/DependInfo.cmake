@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/younes/Projects/flappy-bird/src/AssetManager.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.o"
   "/Users/younes/Projects/flappy-bird/src/Bird.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/Bird.cpp.o"
+  "/Users/younes/Projects/flappy-bird/src/Collision.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/Collision.cpp.o"
   "/Users/younes/Projects/flappy-bird/src/Game.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/Game.cpp.o"
   "/Users/younes/Projects/flappy-bird/src/GameOverState.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/GameOverState.cpp.o"
   "/Users/younes/Projects/flappy-bird/src/GameState.cpp" "/Users/younes/Projects/flappy-bird/cmake-build-debug/src/CMakeFiles/flappy_bird.dir/GameState.cpp.o"

@@ -179,6 +179,33 @@ Bird.cpp.s:
 	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Bird.cpp.s
 .PHONY : Bird.cpp.s
 
+Collision.o: Collision.cpp.o
+
+.PHONY : Collision.o
+
+# target to build an object file
+Collision.cpp.o:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Collision.cpp.o
+.PHONY : Collision.cpp.o
+
+Collision.i: Collision.cpp.i
+
+.PHONY : Collision.i
+
+# target to preprocess a source file
+Collision.cpp.i:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Collision.cpp.i
+.PHONY : Collision.cpp.i
+
+Collision.s: Collision.cpp.s
+
+.PHONY : Collision.s
+
+# target to generate assembly for a file
+Collision.cpp.s:
+	cd /Users/younes/Projects/flappy-bird/cmake-build-debug && $(MAKE) -f src/CMakeFiles/flappy_bird.dir/build.make src/CMakeFiles/flappy_bird.dir/Collision.cpp.s
+.PHONY : Collision.cpp.s
+
 Game.o: Game.cpp.o
 
 .PHONY : Game.o
@@ -464,6 +491,9 @@ help:
 	@echo "... Bird.o"
 	@echo "... Bird.i"
 	@echo "... Bird.s"
+	@echo "... Collision.o"
+	@echo "... Collision.i"
+	@echo "... Collision.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"

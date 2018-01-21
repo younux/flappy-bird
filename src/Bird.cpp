@@ -66,4 +66,8 @@ namespace Younux {
         _birdState = BIRD_STATE_FLYINNG;
     }
 
+    const sf::Sprite& Bird::GetSprite() const {
+        return _birdSprite;
+    }
+
 }

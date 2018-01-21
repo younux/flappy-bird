@@ -22,6 +22,10 @@ Game.hpp
 vector
 -
 
+.././include/Collision.hpp
+SFML/Graphics.hpp
+-
+
 .././include/DEFINITIONS.hpp
 
 .././include/Game.hpp
@@ -59,6 +63,8 @@ Land.hpp
 .././include/Land.hpp
 Bird.hpp
 .././include/Bird.hpp
+Collision.hpp
+.././include/Collision.hpp
 
 .././include/InputManager.hpp
 SFML/Graphics.hpp
@@ -751,6 +757,10 @@ AssetManager.hpp
 /Users/younes/Projects/flappy-bird/src/Bird.cpp
 Bird.hpp
 /Users/younes/Projects/flappy-bird/src/Bird.hpp
+
+/Users/younes/Projects/flappy-bird/src/Collision.cpp
+Collision.hpp
+/Users/younes/Projects/flappy-bird/src/Collision.hpp
 
 /Users/younes/Projects/flappy-bird/src/Game.cpp
 Game.hpp

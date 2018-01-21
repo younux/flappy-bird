@@ -34,6 +34,7 @@ namespace Younux {
 
         _background.setTexture(this->_data->assets.GetTexture(GAME_BACKGROUND_NAME));
 
+        _gameState = GameStates::eReady;
 
 
     }
@@ -48,7 +49,11 @@ namespace Younux {
 
             if(_data->input.IsSpriteClicked(_background, sf::Mouse::Button::Left,
                                             _data->window)){
-                bird->Tap();
+                if(_gameState != GameStates::eGameOver){
+                    _gameState = GameStates::ePlaying;
+                    bird->Tap();
+
+                }
             }
 
         }
@@ -57,19 +62,41 @@ namespace Younux {
     }
 
     void GameState::Update(float dt) {
-        pipe->MovePipes(dt);
-        land->MoveLand(dt);
 
-        if(this->clock.getElapsedTime().asSeconds() > PIPE_SPAWN_FREQUENCY) {
-            pipe->RandomisePipeOffset();
-            pipe->SpawnInvisiblePipe();
-            pipe->SpawnBottomPipe();
-            pipe->SpawnTopPipe();
-            this->clock.restart();
+        if(_gameState != GameStates::eGameOver){
+            bird->Animate(dt);
+            land->MoveLand(dt);
         }
 
-        bird->Animate(dt);
-        bird->Update(dt);
+        if(_gameState == GameStates::ePlaying){
+            pipe->MovePipes(dt);
+
+            if(this->clock.getElapsedTime().asSeconds() > PIPE_SPAWN_FREQUENCY) {
+                pipe->RandomisePipeOffset();
+                pipe->SpawnInvisiblePipe();
+                pipe->SpawnBottomPipe();
+                pipe->SpawnTopPipe();
+                this->clock.restart();
+            }
+
+            bird->Update(dt);
+
+            std::vector<sf::Sprite> landSprites = land->GetSprites();
+            for(int i = 0; i < landSprites.size(); i++){
+                if(collision.CheckSpriteCollision(bird->GetSprite(), 0.7f,
+                                                  landSprites.at(i), 1.0f)){
+                    _gameState = GameStates::eGameOver;
+                }
+            }
+
+            std::vector<sf::Sprite> pipeSprites = pipe->GetSprites();
+            for(int i = 0; i < pipeSprites.size(); i++){
+                if(collision.CheckSpriteCollision(bird->GetSprite(), 0.625f,
+                                                  pipeSprites.at(i), 1.0f)){
+                    _gameState = GameStates::eGameOver;
+                }
+            }
+        }
 
     }
 
