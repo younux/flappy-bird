@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="flappy_bird"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flappy_bird">
+				<Option output="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/flappy_bird.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/./include"/>
+					<Add directory="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/extlibs/include"/>
+					<Add directory="C:/mingw-w64-64-bits/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="C:/mingw-w64-64-bits/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64-64-bits/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64-64-bits/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/mingw-w64-64-bits/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/mingw-w64-64-bits/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/Makefile&quot;  VERBOSE=1 flappy_bird"/>
+					<CompileFile command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flappy_bird/fast">
+				<Option output="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/flappy_bird.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/./include"/>
+					<Add directory="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/extlibs/include"/>
+					<Add directory="C:/mingw-w64-64-bits/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="C:/mingw-w64-64-bits/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64-64-bits/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64-64-bits/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/mingw-w64-64-bits/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/mingw-w64-64-bits/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/Makefile&quot;  VERBOSE=1 flappy_bird/fast"/>
+					<CompileFile command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64-64-bits/bin/mingw32-make.exe -f &quot;C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/AssetManager.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/Bird.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/Collision.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/Flash.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/Game.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/GameOverState.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/GameState.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/HUD.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/InputManager.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/Land.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/MainMenuState.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/Pipe.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/SplashState.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/StateMachine.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/main.cpp">
+			<Option target="flappy_bird"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

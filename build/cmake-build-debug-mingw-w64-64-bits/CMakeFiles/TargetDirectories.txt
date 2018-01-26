@@ -1,0 +1,5 @@
+C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/CMakeFiles/edit_cache.dir
+C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/CMakeFiles/rebuild_cache.dir
+C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/CMakeFiles/rebuild_cache.dir
+C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/CMakeFiles/flappy_bird.dir
+C:/Users/younes.benhoumich/Documents/Projects/flappy-bird/build/cmake-build-debug-mingw-w64-64-bits/src/CMakeFiles/edit_cache.dir

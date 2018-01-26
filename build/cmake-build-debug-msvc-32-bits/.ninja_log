@@ -1,0 +1,17 @@
+# ninja log v5
+35	1549	0	src/CMakeFiles/flappy_bird.dir/StateMachine.cpp.obj	13b6c637351f8638
+124	3694	0	src/CMakeFiles/flappy_bird.dir/InputManager.cpp.obj	8f7a7a2e3453f549
+182	4326	0	src/CMakeFiles/flappy_bird.dir/main.cpp.obj	4021b2e0c119422b
+90	4378	0	src/CMakeFiles/flappy_bird.dir/AssetManager.cpp.obj	dfe2990facd16477
+0	4435	0	src/CMakeFiles/flappy_bird.dir/SplashState.cpp.obj	6026d9b04b46a39f
+238	4974	0	src/CMakeFiles/flappy_bird.dir/Game.cpp.obj	2f432a52cc43f91d
+1550	5745	0	src/CMakeFiles/flappy_bird.dir/Collision.cpp.obj	c725985768c73915
+3701	8192	0	src/CMakeFiles/flappy_bird.dir/Bird.cpp.obj	4eff9362c9b402d3
+4380	8329	0	src/CMakeFiles/flappy_bird.dir/Flash.cpp.obj	bb0a88b05cb1b4e4
+4327	8794	0	src/CMakeFiles/flappy_bird.dir/GameOverState.cpp.obj	fbaeb6d5027dcd80
+4437	8861	0	src/CMakeFiles/flappy_bird.dir/GameState.cpp.obj	c06bdecd568ff461
+4975	8985	0	src/CMakeFiles/flappy_bird.dir/Pipe.cpp.obj	4d9bf95c3c6f0dd9
+5746	9128	0	src/CMakeFiles/flappy_bird.dir/Land.cpp.obj	e73707dab3810b79
+8193	10193	0	src/CMakeFiles/flappy_bird.dir/MainMenuState.cpp.obj	c4a9f79e8195583b
+8330	10235	0	src/CMakeFiles/flappy_bird.dir/HUD.cpp.obj	ce3325a0feb40e17
+10236	12043	0	src/flappy_bird.exe	5164546eb0f09c6a
