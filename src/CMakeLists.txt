@@ -11,7 +11,7 @@ MESSAGE("----> Used Compiler : ${CMAKE_CXX_COMPILER_ID}")
 MESSAGE("----> Detecting SFML corresponding to ${CMAKE_CXX_COMPILER_ID} compiler ")
 
 # Add library path to cmake depending on the compiler and the platform
-if(${CMAKE_CXX_COMPILER_ID} STREQUAL "Clang")
+if(APPLE)
 	set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "${PROJECT_SOURCE_DIR}/extlibs/macosx-clang/SFML")
 elseif(MSVC)
 	set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "${PROJECT_SOURCE_DIR}/extlibs/win-msvc-32-bits/SFML")
@@ -29,6 +29,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake_modules")
 # See the FindSFML.cmake file for additional details and instructions
 find_package(SFML 2 COMPONENTS system window graphics network audio REQUIRED)
 if(SFML_FOUND)
+	message(${SFML_LIBRARIES})
     include_directories(${SFML_INCLUDE_DIR})
     target_link_libraries(flappy_bird ${SFML_LIBRARIES} ${SFML_DEPENDENCIES})
 endif()

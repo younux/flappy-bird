@@ -1,0 +1,5 @@
+/Users/younes/Projects/flappy-bird/build/cmake-build-debug-macosx-clang/CMakeFiles/rebuild_cache.dir
+/Users/younes/Projects/flappy-bird/build/cmake-build-debug-macosx-clang/CMakeFiles/edit_cache.dir
+/Users/younes/Projects/flappy-bird/build/cmake-build-debug-macosx-clang/src/CMakeFiles/rebuild_cache.dir
+/Users/younes/Projects/flappy-bird/build/cmake-build-debug-macosx-clang/src/CMakeFiles/edit_cache.dir
+/Users/younes/Projects/flappy-bird/build/cmake-build-debug-macosx-clang/src/CMakeFiles/flappy_bird.dir
